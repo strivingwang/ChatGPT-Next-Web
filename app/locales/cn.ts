@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确，请扫码，在公众号后台获取新密码！！(<br/>)" +
+      "访问密码不正确，请扫码，在公众号后台回复“密码”，获取新密码！！" +
       "![avatar](/AI-tech-hub.png)",
   },
   ChatItem: {

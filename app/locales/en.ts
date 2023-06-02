@@ -5,8 +5,7 @@ const en: RequiredLocaleType = {
   WIP: "Coming Soon...",
   Error: {
     Unauthorized:
-      "Unauthorized access, please scan QRcode to get new password." +
-      "![avatar](/AI-tech-hub.png)",
+      "Unauthorized access, please enter access code in settings page.",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} messages`,

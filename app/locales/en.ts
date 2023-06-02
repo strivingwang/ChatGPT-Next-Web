@@ -5,7 +5,8 @@ const en: RequiredLocaleType = {
   WIP: "Coming Soon...",
   Error: {
     Unauthorized:
-      "Unauthorized access, please enter access code in settings page.",
+      "> 出于安全考虑，站点定期更新密码，请扫下面二维码，在公众号后台回复“***密码***”，获取新密码！！\n\r" +
+      "![avatar](/AI-tech-hub.png)",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} messages`,

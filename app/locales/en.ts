@@ -10,6 +10,13 @@ const en: RequiredLocaleType = {
       "2. 前往[设置](/#/settings)页输入**新密码**，纯粹用爱发电，大家且用且珍惜\n\r" +
       "![avatar](/AI-tech-hub.png)",
   },
+  Auth: {
+    Title: "Need Access Code",
+    Tips: "Please enter access code below",
+    Input: "access code",
+    Confirm: "Confirm",
+    Later: "Later",
+  },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} messages`,
   },

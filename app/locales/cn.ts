@@ -4,13 +4,17 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "#### 出于安全考虑，站点定期更新密码\n\r" +
-      "1. 请扫下面二维码，在公众号后台回复“**密码**”，获取新密码！！\n\r" +
-      "2. 前往[设置](/#/settings)页输入**新密码**，纯粹用爱发电，大家且用且珍惜\n\r" +
-      "![avatar](/AI-tech-hub.png)",
+      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
+  },
+  Auth: {
+    Title: "需要密码",
+    Tips: "管理员开启了密码验证，请在下方填入访问码",
+    Input: "在此处填写访问码",
+    Confirm: "确认",
+    Later: "稍后再说",
   },
   Chat: {
     SubTitle: (count: number) => `与 ChatGPT 的 ${count} 条对话`,

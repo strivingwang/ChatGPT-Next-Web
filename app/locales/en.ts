@@ -5,10 +5,10 @@ const en: RequiredLocaleType = {
   WIP: "Coming Soon...",
   Error: {
     Unauthorized:
-      "#### 出于安全考虑，站点定期更新密码\n\r" +
-      "1. 请扫下面二维码，在公众号后台回复“**密码**”，获取新密码！！\n\r" +
-      "2. 前往[设置](/#/settings)页输入**新密码**，纯粹用爱发电，大家且用且珍惜\n\r" +
-      "![avatar](/AI-tech-hub.png)",
+      "### 出于安全考虑，站点定期更新密码\n\r" +
+      "1. 请扫下面二维码，在公众号后台回复“**密码**”，获取新密码！\n\r " +
+      "2. *点击这里* =>[**登录入口**](/#/auth)，输入**新密码**即可。纯粹用爱发电，大家且用且珍惜!!\n\r" +
+      "> ![avatar](/AI-tech-hub.png) \n\r",
   },
   Auth: {
     Title: "Need Access Code",

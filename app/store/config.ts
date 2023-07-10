@@ -44,9 +44,9 @@ export const DEFAULT_CONFIG = {
     max_tokens: 2000,
     presence_penalty: 0,
     frequency_penalty: 0,
-    sendMemory: true,
+    sendMemory: false,
     historyMessageCount: 4,
-    compressMessageLengthThreshold: 1000,
+    compressMessageLengthThreshold: 500,
     template: DEFAULT_INPUT_TEMPLATE,
   },
 };

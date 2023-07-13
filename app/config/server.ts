@@ -37,8 +37,13 @@ export const getServerSideConfig = () => {
     );
   }
 
+  let keysStr = process.env.OPENAI_API_KEY ? process.env.OPENAI_API_KEY : "";
+  let keyArr = keysStr.split(","); // 将字符串分割成数组
+  let randomIndex = Math.floor(Math.random() * keyArr.length); // 生成随机索引
+  let randomKey = keyArr[randomIndex]; // 获取随机元素
+  // console.log(randomKey)
   return {
-    apiKey: process.env.OPENAI_API_KEY,
+    apiKey: randomKey,
     code: process.env.CODE,
     codes: ACCESS_CODES,
     needCode: ACCESS_CODES.size > 0,

@@ -11,7 +11,7 @@ const en: LocaleType = {
       "2. *点击这里* =>[**登录入口**](/#/auth)，输入新**密码**授权訪問\n\r" +
       "> ![avatar](/AI-tech-hub.png) \n\r" +
       "3. 若使用有问题，请加入下面微信群反馈！！\n\r" +
-      "> ![avatar](/group-code.jpg) \n\r",
+      "> ![avatar](/group-code.png) \n\r",
   },
   Auth: {
     Title: "Need Access Code",

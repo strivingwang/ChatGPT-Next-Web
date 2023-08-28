@@ -1,7 +1,10 @@
+import { getClientConfig } from "../config/client";
 import { SubmitKey } from "../store/config";
 import { LocaleType } from "./index";
 
 // if you are adding a new translation, please use PartialLocaleType instead of LocaleType
+
+const isApp = !!getClientConfig()?.isApp;
 const en: LocaleType = {
   WIP: "Coming Soon...",
   Error: {
@@ -176,6 +179,10 @@ const en: LocaleType = {
     SendPreviewBubble: {
       Title: "Send Preview Bubble",
       SubTitle: "Preview markdown in bubble",
+    },
+    AutoGenerateTitle: {
+      Title: "Auto Generate Title",
+      SubTitle: "Generate a suitable title based on the conversation content",
     },
     Mask: {
       Splash: {
